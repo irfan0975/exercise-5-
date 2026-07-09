@@ -1,0 +1,54 @@
+[
+    {
+        "id": "c4f92da99758e0fb",
+        "type": "mqtt in",
+        "z": "b4bd07bdf49bcd42",
+        "name": "MQTT In 2",
+        "topic": "campus/qos/test",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "b047073873daf235",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 280,
+        "wires": [
+            [
+                "dae5d2b8bcde7b49"
+            ]
+        ]
+    },
+    {
+        "id": "b047073873daf235",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "host.docker.internal",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
